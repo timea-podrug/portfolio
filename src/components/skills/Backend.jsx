@@ -25,13 +25,13 @@ const Backend = () => {
                     </div>
                     </div>
 
-                    {/* <div className="skills_data">
+                    <div className="skills_data">
                     <i class="uil uil-check"></i>
                     <div>
-                        <h3 className="skills_name">C++</h3>
+                        <h3 className="skills_name">Arduino IDE</h3>
                         <span className="skills_level">Basic</span>
                     </div>
-                    </div> */}
+                    </div>
                 </div>
 
               
