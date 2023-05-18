@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 /* FONTS*/
 /*CSS VARIABLES*/
+@font-face{
+  font-family: 'engageregular';
+  src: url('engage_regular-webfont.woff2') format('woff2'),
+       url('engage_regular-webfont.woff') format('woff');
+ 
+}
 :root{
   --header-height:3rem;
   /*COLORS*/
@@ -14,6 +20,9 @@
   --container-color:#fff;
   /*FONT*/
   --body-font:"Poppins",sans-serif;
+  --special-font:"engageregular",sans-serif;
+  
+  
   --big-font-size:3.5rem;
   --h1-font-size:2.25rem;
   --h2-font-size:1.5rem;
@@ -110,6 +119,7 @@ img{
 }
 
 .section_title{
+  font-family: var(--special-font);
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
@@ -145,6 +155,7 @@ img{
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  font-family: var(--special-font);
 }
 
 .button:hover{

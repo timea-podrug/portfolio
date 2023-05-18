@@ -12,6 +12,7 @@
 }
 
 .skills_title{
+    font: var(--special-font);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     text-align: center;
