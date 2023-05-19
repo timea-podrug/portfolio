@@ -6,7 +6,7 @@ const Data = () => {
     <div className="home_data">
       <h1 className="home_title">Timea Podrug</h1>
       <h3 className="home_subtitle">High School Student</h3>
-      <p className="home_description">I'm a student from Split, Croatia always looking forward to learn more :)</p>
+      <p className="home_description">Web Developer currently looking for an internship or a part time job opportunity :)</p>
       <a href="#contact" className="button button--flex">
         Say Hello
         <svg
