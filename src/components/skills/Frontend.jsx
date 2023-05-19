@@ -37,13 +37,7 @@ const Frontend = () => {
                 <div className="skills_group">
                     
 
-                    <div className="skills_data">
-                    <i class="uil uil-check"></i>
-                    <div>
-                        <h3 className="skills_name">Git</h3>
-                        <span className="skills_level">Basic</span>
-                    </div>
-                    </div>
+                    
 
                     <div className="skills_data">
                     <i class="uil uil-check"></i>

@@ -15,7 +15,10 @@ const About = () => {
                 <div className="about_data">
                     <Info />
                     <p className="about_description">
-                        I go to schools of graphic, design and sustainable construction. Course - web development. I'm one of the organisers of the NEXT conference. I love learning new things, working on projects and meeting new people.
+                        I go to schools of graphic, design and sustainable construction. Course - web development <i class="uil uil-laptop"></i>. I love learning new things, working on projects and meeting new people.
+                        <br/>
+                        <br/>
+                        In my free time I enjoy reading books <i class="uil uil-book-reader"></i>, drawing <i class="uil uil-edit-alt"></i> and playing around with electronics <i class="uil uil-circuit"></i>.
                     </p>
                     <a href="" downald="" className="button button--flex">Downald CV   
                         <svg
