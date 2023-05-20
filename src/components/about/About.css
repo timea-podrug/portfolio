@@ -32,10 +32,15 @@
 }
 .about_subtitle{
     font-size: var(--tiny-font-size);
+    color: var(--text-color);
 }
 .about_description{
     padding: 0 4rem 0 0;
     margin-bottom:var(--mb-2-5) ;
+    color: var(--text-color-dark);
+    background-color: var(--text-color);
+   
+   
 }
 
 /*BREAKPOINTS*/

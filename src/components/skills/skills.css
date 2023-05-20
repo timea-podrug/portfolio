@@ -12,6 +12,7 @@
 }
 
 .skills_title{
+    color: var(--title-color);
     font: var(--special-font);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
@@ -49,6 +50,7 @@
 
 .skills_level{
     font-size: var(--tiny-font-size);
+    color: var(--text-color);
 }
 
 /*BREAKPOINTS*/

@@ -1,5 +1,6 @@
 .home_container {
     row-gap: 7rem;
+    color: var(--text-color-dark);
 }
 
 .home_content {
@@ -17,7 +18,7 @@
 
 .home_social-icon {
     font-size: 1.25rem;
-    color: var(--title-color);
+    color: var(--title-color-dark);
 }
 
 .home_social-icon:hover {
@@ -28,9 +29,11 @@
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
     font-family: var(--special-font);
+    color: var(--title-color-dark);
 }
 
 .home_subtitle {
+    color: var(--text-color-dark);
     position: relative;
     font-size: var(--h3-font-size);
     padding-left: 5.4rem;
@@ -43,7 +46,7 @@
     position: absolute;
     width: 70px;
     height: 1px;
-    background-color: var(--text-color);
+    background-color: var(--text-color-dark);
     left: 0;
     top: 1rem;
 }
@@ -54,7 +57,7 @@
 }
 
 .home_img {
-    background: url(../../assets//profile.png);
+    background: url(../../assets//profile2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -102,7 +105,7 @@
 }
 
 .home_scroll-name {
-    color: var(--title-color);
+    color: var(--title-color-dark);
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
     margin-left: 2px;
@@ -111,7 +114,7 @@
 
 .home_scroll-arrow {
     font-size: 1.25rem;
-    color: var(--title-color);
+    color: var(--title-color-dark);
 }
 
 /*BREAKPOINTS*/

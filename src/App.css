@@ -11,13 +11,17 @@
 :root{
   --header-height:3rem;
   /*COLORS*/
-  --hue:0;
-  --sat:0%;
-  --title-color:hsl(var(--hue),var(--sat), 20%);
-  --title-color-dark:hsl(var(--hue),var(--sat),0%);
-  --text-color:hsl(var(--hue),var(--sat), 46%);
-  --body-color:hsl(var(--hue),var(--sat), 98%);
-  --container-color:#fff;
+  --hue:37.9;
+  --sat:15.7%;
+  --hue-dark:40;
+  --sat-dark:4.2%;
+  --title-color:hsl(var(--hue),var(--sat), 76%);
+  --title-color-dark:hsl(var(--hue-dark),var(--sat-dark),14%);
+  --text-color:hsl(var(--hue),var(--sat), 76%);
+  --body-color:hsl(var(--hue),var(--sat),  76.3%);
+  --text-color-dark:hsl(var(--hue-dark),var(--sat-dark), 14%);
+  --body-color-dark:hsl(var(--hue-dark),var(--sat-dark),  14%);
+  --container-color:#252422;
   /*FONT*/
   --body-font:"Poppins",sans-serif;
   --special-font:"engageregular",sans-serif;
@@ -85,7 +89,7 @@ textarea{
 
 body{
   background-color: var(--body-color);
-  color: var(--text-color);
+  color: var(--text-color-dark);
 }
 
 h1,h2,h3{
@@ -121,10 +125,11 @@ img{
 .section_title{
   font-family: var(--special-font);
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--title-color-dark);
 }
 
 .section_subtitle{
+  color: var(--title-color-dark);
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
@@ -150,8 +155,8 @@ img{
 /*BUTTONS*/
 .button{
   display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
+  background-color: var(--title-color-dark);
+  color: var(--text-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
@@ -159,7 +164,8 @@ img{
 }
 
 .button:hover{
-  background-color: var(--title-color-dark);
+  background-color: var(--title-color);
+  color: var(--title-color-dark);
 }
 
 .button_icon{

@@ -10,7 +10,7 @@
 
 .footer_title,
 .footer_link{
-    color: var(--title-color);
+    color: var(--text-color);
     font-family: var(--special-font);
 
 }
@@ -21,7 +21,7 @@
 }
 
 .footer_link{
-    color: var(--title-color-dark);
+    color: var(--title-color);
 }
 
 .footer_list{
@@ -39,7 +39,7 @@
 
 .footer_social-link{
     background-color: var(--title-color);
-    color: var(--container-color);
+    color: var(--text-color-dark);
     font-size: 1rem;
     padding: 0.4rem;
     border-radius: 0.5rem;
@@ -50,7 +50,7 @@
 }
 
 .footer_social-link:hover{
-    background-color: var(--title-color-dark);
+    background-color: var(--title-color);
 }
 
 .footer_copy{
