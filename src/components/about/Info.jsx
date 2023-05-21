@@ -19,7 +19,7 @@ const Info = () => {
 
         <div className="about_box">
             <i class="uil uil-trophy about_icon"></i>
-            <h3 className="about_title">Awards</h3>
+            <h3 className="about_title">Attended</h3>
             <span className="about_subtitle">5+ Competitions</span>
         </div>
     </div>

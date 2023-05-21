@@ -8,6 +8,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 
+
 function App() {
   return (
     <>

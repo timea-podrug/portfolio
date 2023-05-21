@@ -10,7 +10,7 @@ const Backend = () => {
             <div className="skills_box">
                 <div className="skills_group">
                     <div className="skills_data">
-                    <i class="uil uil-check"></i>
+                    <i class="uil uil-check-square"></i>
                     <div>
                         <h3 className="skills_name">PHP</h3>
                         <span className="skills_level">Basic</span>
@@ -18,7 +18,7 @@ const Backend = () => {
                     </div>
 
                     <div className="skills_data">
-                    <i class="uil uil-check"></i>
+                    <i class="uil uil-check-square"></i>
                     <div>
                         <h3 className="skills_name">Python</h3>
                         <span className="skills_level">Intermediate</span>
@@ -26,7 +26,7 @@ const Backend = () => {
                     </div>
 
                     <div className="skills_data">
-                    <i class="uil uil-check"></i>
+                    <i class="uil uil-check-square"></i>
                     <div>
                         <h3 className="skills_name">Arduino IDE</h3>
                         <span className="skills_level">Basic</span>

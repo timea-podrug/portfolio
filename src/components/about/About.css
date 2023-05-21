@@ -5,8 +5,10 @@
 }
 .about_img{
     width: 350px;
-    border-radius: 1.5rem;
+    border: 0.5rem solid var(--text-color-dark);
     justify-self: center;
+    background-color: var(--title-color-dark);
+    
 }
 .about_info{
     grid-template-columns: repeat(3 , 140px);
@@ -16,7 +18,7 @@
 .about_box{
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1) ;
-    border-radius: 0.75rem;
+   
     text-align: center;
     padding: 1rem 1.25rem;
 

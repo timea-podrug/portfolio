@@ -10,7 +10,7 @@ const Frontend = () => {
             <div className="skills_box">
                 <div className="skills_group">
                     <div className="skills_data">
-                    <i class="uil uil-check"></i>
+                    <i class="uil uil-check-square"></i>
                     <div>
                         <h3 className="skills_name">HTML</h3>
                         <span className="skills_level">Advanced</span>
@@ -18,7 +18,7 @@ const Frontend = () => {
                     </div>
 
                     <div className="skills_data">
-                    <i class="uil uil-check"></i>
+                    <i class="uil uil-check-square"></i>
                     <div>
                         <h3 className="skills_name">CSS</h3>
                         <span className="skills_level">Intermediate</span>
@@ -26,7 +26,7 @@ const Frontend = () => {
                     </div>
 
                     <div className="skills_data">
-                    <i class="uil uil-check"></i>
+                    <i class="uil uil-check-square"></i>
                     <div>
                         <h3 className="skills_name">JavaScript</h3>
                         <span className="skills_level">Intermediate</span>
@@ -40,7 +40,7 @@ const Frontend = () => {
                     
 
                     <div className="skills_data">
-                    <i class="uil uil-check"></i>
+                    <i class="uil uil-check-square"></i>
                     <div>
                         <h3 className="skills_name">React</h3>
                         <span className="skills_level">Intermediate</span>
@@ -48,7 +48,7 @@ const Frontend = () => {
                     </div>
 
                     <div className="skills_data">
-                    <i class="uil uil-check"></i>
+                    <i class="uil uil-check-square"></i>
                     <div>
                         <h3 className="skills_name">Android Studio</h3>
                         <span className="skills_level">Basic</span>

@@ -1,11 +1,18 @@
 /* GOOGLE FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 /* FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 /*CSS VARIABLES*/
 @font-face{
   font-family: 'engageregular';
-  src: url('engage_regular-webfont.woff2') format('woff2'),
-       url('engage_regular-webfont.woff') format('woff');
+  src: url('./fonts/engage_regular-webfont.woff2') format('woff2'),
+       url('./fonts/engage_regular-webfont.woff') format('woff');
+ 
+}
+@font-face{
+  font-family: 'vogue';
+  src: url('./fonts/vogue-webfont.woff2') format('woff2'),
+       url('./fonts/vogue-webfont.woff') format('woff');
  
 }
 :root{
@@ -23,8 +30,8 @@
   --body-color-dark:hsl(var(--hue-dark),var(--sat-dark),  14%);
   --container-color:#252422;
   /*FONT*/
-  --body-font:"Poppins",sans-serif;
-  --special-font:"engageregular",sans-serif;
+  --body-font:"PT Serif",sans-serif;
+  --special-font:"vogue",sans-serif;
   
   
   --big-font-size:3.5rem;
@@ -158,7 +165,7 @@ img{
   background-color: var(--title-color-dark);
   color: var(--text-color);
   padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  border-radius: 0rem;
   font-weight: var(--font-medium);
   font-family: var(--special-font);
 }
@@ -166,6 +173,7 @@ img{
 .button:hover{
   background-color: var(--title-color);
   color: var(--title-color-dark);
+  transition: .4s;
 }
 
 .button_icon{
