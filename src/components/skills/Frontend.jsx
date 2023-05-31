@@ -51,7 +51,7 @@ const Frontend = () => {
                     <i class="uil uil-check-square"></i>
                     <div>
                         <h3 className="skills_name">Android Studio</h3>
-                        <span className="skills_level">Basic</span>
+                        <span className="skills_level">Intermediate</span>
                     </div>
                     </div>
                 </div>
