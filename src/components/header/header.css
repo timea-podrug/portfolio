@@ -114,6 +114,8 @@
 
     .nav_toggle{
         font-size: 1.1rem;
+        margin-left: auto;
+        
         cursor: pointer;
     }
 

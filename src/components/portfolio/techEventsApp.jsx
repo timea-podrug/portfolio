@@ -1,33 +1,36 @@
 import React from "react";
 import "./portfolio.css";
-import Slika from "../../assets/next2.jpg"
+import Video from "../../assets/techEventsApp_video.mp4";
 
 
 
 
-const Next = () => {
+
+
+const TechEventsApp = () => {
     return (
         <div className="portfolio_container container grid">
             
-            <div className="portfolio_data">
-                <p className="subtitle">NEXT</p>
-                
-                <br></br>
+            <div className="portfolio_data portfolio_content portfolio_description" >
                 <p className="portfolio_description">
-                    Cilj konferencije je pokazati mladima mogućnosti i zajednicu koju Split i Hrvatska imaju. <br></br><br></br>
-
-                    <span id="date"> 25. OŽUJKA SPLIT DOM MLADIH </span><br></br><br></br>
-                    4 predavanja i 1 panel rasprava: poduzetništvo, tehnologija, inovacija, dizajn i
-                    osobni razvoj sve na jednom mjestu. <br></br>
-
-                    U publici je bilo više od 300 srednjoškolaca, studenata i ostalih mladih.
-
+                <p className="subtitle">Tech Events App</p>
+                <br />
+                Tech Events App is an application designed to find events in the IT industry. It allows users to find lectures, gatherings, panel discussions and conferences without the need to search the Internet and social networks.
                 </p>
                 <a href="#" className="button button--flex">Read On
                 </a>
 
             </div>
-            <img alt="#" src={Slika} className="portfolio_img" />
+            <div className="portfolio_content">
+                
+
+                <video width="150px" height="320px" className="app_video" controls autoPlay loop playsInline>
+                    <source src={Video} />
+                   
+                    does not support
+                </video>
+
+            </div>
         </div>
 
 
@@ -35,4 +38,4 @@ const Next = () => {
 
     )
 }
-export default Next
+export default TechEventsApp
