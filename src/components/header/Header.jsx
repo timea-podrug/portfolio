@@ -1,5 +1,11 @@
 import React, {useState} from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
+import Home from "../home/Home";
+import About from "../about/About";
+import Skills from "../skills/Skills";
+import Portfolio from "../portfolio/portfolio";
+import Contact from "../contact/Contact";
 const Header =()=>{
     /*CHANGE BACKGROUND HEADER*/
     
@@ -10,14 +16,14 @@ const Header =()=>{
     return(
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav_logo">Timea</a>
+                <Link to="/" className="nav_logo">Timea</Link>
 
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                     <ul className="nav_list grid">
                         <li className="nav_item">
-                            <a href="#home" className="nav_link">
+                            <Link to="/home" className="nav_link">
                                 <i className="uil uil-estate nav_icon"></i> Home
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="nav_item">

@@ -1,0 +1,22 @@
+.details_container {
+    row-gap: 7rem;
+    color: var(--text-color-dark);
+}
+.details_title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-0-25);
+    font-family: var(--special-font);
+    color: var(--title-color-dark);
+    margin-top: 18rem;
+    margin-left: 10rem;
+}
+.nav_logo{
+    color: var(--title-color);
+    background-color: var(--title-color-dark);
+    font-weight: var(--font-medium);
+    padding: 0.75rem;
+    margin: 2rem;
+    margin-left: 5rem;
+    display:inline-block ;
+    
+}
