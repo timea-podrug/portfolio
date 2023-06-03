@@ -23,7 +23,7 @@ const PortfolioWebsite = () => {
                 <p className="portfolio_description">
                 <p className="subtitle">Portfolio Website</p>
                 <br />
-                In today's digital age, having a portfolio website has become essential for professionals and creatives alike. It serves as a platform to showcase our skills, accomplishments, and experiences to potential clients, employers, or collaborators. As a passionate individual seeking to make a mark in my field, I embarked on the journey of creating my own portfolio website.
+                In today's digital age, having a portfolio website has become essential for professionals and creatives alike. It serves as a platform to showcase our skills, accomplishments, and experiences to potential clients, employers, or collaborators.<br></br><br></br> As a passionate individual seeking to make a mark in my field, I embarked on the journey of creating my own portfolio website.
 
                 </p>
                 <a href="#" className="button button--flex">Read On
