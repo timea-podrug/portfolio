@@ -20,7 +20,7 @@ const About = () => {
                         <br/>
                         In my free time I enjoy reading books <i class="uil uil-book-reader"></i>, traveling <i class="uil uil-plane-fly"></i> and playing around with electronics <i class="uil uil-circuit"></i>.
                     </p>
-                    <a href="" downald="" className="button button--flex">Downald CV   
+                    <a href="" downald="" className="button button--flex">Download CV   
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"

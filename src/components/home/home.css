@@ -9,6 +9,9 @@
     column-gap: 2rem;
     align-items: center;
 }
+#flag{
+    margin-bottom: -5px;
+}
 
 .home_social {
     display: grid;
