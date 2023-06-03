@@ -1,10 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import Video from "../../assets/portfolioWebsite_video.mp4";
-
-
-
-
+import { Link} from "react-router-dom";
 
 const PortfolioWebsite = () => {
     return (
@@ -26,8 +23,7 @@ const PortfolioWebsite = () => {
                 In today's digital age, having a portfolio website has become essential for professionals and creatives alike. It serves as a platform to showcase our skills, accomplishments, and experiences to potential clients, employers, or collaborators.<br></br><br></br> As a passionate individual seeking to make a mark in my field, I embarked on the journey of creating my own portfolio website.
 
                 </p>
-                <a href="#" className="button button--flex">Read On
-                </a>
+                <Link to="/PortfolioWebsiteDetails" target="_blank" className="button button--flex">Read On</Link>
 
             </div>
         </div>
@@ -37,4 +33,4 @@ const PortfolioWebsite = () => {
 
     )
 }
-export default PortfolioWebsite
+export default PortfolioWebsite;
