@@ -2,10 +2,6 @@ import React from "react";
 import "./portfolio.css";
 import { Link } from "react-router-dom";
 
-
-
-
-
 const Next = () => {
     return (
         <div className="portfolio_container container grid">
@@ -34,12 +30,8 @@ const Next = () => {
 
                 <a href="https://split-techcity.com/next-konferencija-2023-izvjestaj" target="_blank" className="button button--flex">Split Tech City</a>
 
-
             </div>
         </div>
-
-
-
 
     )
 }

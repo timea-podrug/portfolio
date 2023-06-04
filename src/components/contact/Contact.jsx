@@ -66,7 +66,7 @@ const Contact = () => {
                             <textarea name="text" className="contact_form-input " placeholder="Write to me" cols="30" rows="10"></textarea>
                         </div>
 
-                        <button className="button button--flex">
+                        <button className="button button--flex" onClick={() => alert('Message Sent')}>
                             Send Message
                             <svg
                                 class="button__icon"
