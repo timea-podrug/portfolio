@@ -16,6 +16,9 @@ function PortfolioWebsiteDetails() {
     <div className="details_container"> 
           <Link to="/" className="nav_logo">Home</Link>
         <h1 className="details_title">Portfolio Website</h1>
+        <div className="details_content">
+            <button></button>
+        </div>
 
 
     </div>

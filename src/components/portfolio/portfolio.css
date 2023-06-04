@@ -5,11 +5,14 @@
     column-gap: 4rem;
 }
 .portfolio_video{
-    width: 450px;
+    width: 350px;
     border: 0.5rem solid var(--text-color-dark);
     justify-content: center;
     background-color: var(--title-color-dark);
     
+}
+#next_video{
+    width: 460px;
 }
 .app_video{
    
@@ -18,9 +21,6 @@ margin-top: -4rem;
     border: 0.5rem solid var(--text-color-dark);
     justify-content: center;
     background-color: var(--title-color-dark);
-    
-   
-
 }
 .portfolio_content{
     padding:2rem 0rem ;
@@ -29,6 +29,10 @@ margin-top: -4rem;
     
     font-size: var(--h1-font-size);
     font-weight: var(--font-semi-bold);
+}
+.button{
+    margin: 0.5rem;
+    
 }
 
 .portfolio_box{
@@ -64,6 +68,29 @@ margin-top: -4rem;
 }
 .button{
     float: right;
+}
+#techevents_icons{
+    float: right;
+
+}
+.project_languages {
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+    
+}
+
+.project_languages-icon {
+    font-size: 1.8rem;
+    color: var(--title-color);
+    background-color: var(--title-color-dark);
+    padding: 0.3rem;
+}
+
+.project_languages-icon:hover {
+    color: var(--title-color-dark);
+    background-color: var(--title-color);
+    transition: .4s;
 }
 
 /*BREAKPOINTS*/
