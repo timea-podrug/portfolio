@@ -1,84 +1,96 @@
-.portfolio_container{
-    grid-template-columns: repeat(2 ,1fr);
+.portfolio_container {
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
     column-gap: 4rem;
 }
-.portfolio_video{
+
+.portfolio_video {
     width: 350px;
     border: 0.5rem solid var(--text-color-dark);
     justify-content: center;
     background-color: var(--title-color-dark);
-    
+
 }
-#next_video{
+
+#next_video {
     width: 460px;
 }
-.app_video{
-   
+
+.app_video {
+
     margin-left: 10rem;
-margin-top: -4rem;
+    margin-top: -4rem;
     border: 0.5rem solid var(--text-color-dark);
     justify-content: center;
     background-color: var(--title-color-dark);
 }
-.portfolio_content{
-    padding:2rem 0rem ;
+
+.portfolio_content {
+    padding: 2rem 0rem;
 }
-.subtitle{
-    
+
+.subtitle {
+
     font-size: var(--h1-font-size);
     font-weight: var(--font-semi-bold);
 }
-.button{
+
+.button {
     margin: 0.5rem;
-    
+
 }
 
-.portfolio_box{
+.portfolio_box {
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1) ;
-   justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    justify-content: center;
     text-align: center;
     padding: 1rem 1.25rem;
 
 }
-#date{
+
+#date {
     font-weight: bold;
-   
+
 }
 
-.portfolio_tittle{
+.portfolio_tittle {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }
-.portfolio_subtitle{
+
+.portfolio_subtitle {
     font-size: var(--tiny-font-size);
     color: var(--text-color);
 }
-.portfolio_description{
+
+.portfolio_description {
     margin-top: 1rem;
-    
-    margin-bottom:var(--mb-2-5) ;
+
+    margin-bottom: var(--mb-2-5);
     color: var(--text-color-dark);
     background-color: var(--text-color);
     text-align: left;
-   
-   
+
+
 }
-.button{
+
+.button {
     float: right;
 }
-#techevents_icons{
+
+#techevents_icons {
     float: right;
 
 }
+
 .project_languages {
     margin-top: 1.5rem;
     display: grid;
     grid-template-columns: max-content;
     row-gap: 1rem;
-    
+
 }
 
 .project_languages-icon {
@@ -97,83 +109,91 @@ margin-top: -4rem;
 /*BREAKPOINTS*/
 
 
-  @media screen and (max-width:992px){
-    .portfolio_container{
+@media screen and (max-width:992px) {
+    .portfolio_container {
         grid-template-columns: 1fr;
         row-gap: 2rem;
     }
-   
-    .portfolio_description{
-       padding: 0;
+
+    .portfolio_description {
+        padding: 0;
     }
-   
-  
-  }
-  
-  /*MEDIUM DEVICES*/
-  
-  @media screen and (max-width:576px){
-    .portfolio_container{
+
+
+}
+
+/*MEDIUM DEVICES*/
+
+@media screen and (max-width:576px) {
+    .portfolio_container {
         grid-template-columns: 1fr;
     }
-    .portfolio_video{
+
+    .portfolio_video {
         width: 300px;
         height: 200px;
-        justify-content: center;text-align: center;
-    }
-    
-    #next_video{
-        width: 300px;
-        height: 200px;
-        justify-content: center;text-align: center;
-    }
-    .app_video{
-        justify-content: center;
-        margin-left: auto;
-        
-    }
-   
-   
-    .portfolio_content{
-        padding:1.5rem ;
-    }
-    .portfolio_description{
-        margin-top: 0rem;
-    }
-  
-  }
-  /*SMALL DEVICES*/
-  @media screen and (max-width:350px){
-   .project_languages{display: none;}
-    .portfolio_video{
-        width: 200px;
-        height: 200px;
-        justify-content: center;text-align: center;
-    }
-    #next_video{
-        width: 200px;
-        height: 200px;
-        justify-content: center;text-align: center;
-    }
-    .app_video{
         justify-content: center;
         text-align: center;
-        
-        
     }
-    .portfoliot_subtitle{
-        font-size: var(--small-font-size);
+
+    #next_video {
+        width: 300px;
+        height: 200px;
+        justify-content: center;
+        text-align: center;
     }
-    .portfolio_description{
+
+    .app_video {
+        justify-content: center;
+        margin-left: auto;
+
+    }
+
+
+    .portfolio_content {
+        padding: 1.5rem;
+    }
+
+    .portfolio_description {
         margin-top: 0rem;
     }
-   
-    
+
 }
-  
-  
- 
-  
-  
- 
-  
+
+/*SMALL DEVICES*/
+@media screen and (max-width:350px) {
+    .project_languages {
+        display: none;
+    }
+
+    .portfolio_video {
+        width: 200px;
+        height: 120px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #next_video {
+        width: 200px;
+        height: 120px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .app_video {
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    .portfoliot_subtitle {
+        font-size: var(--small-font-size);
+    }
+
+    .portfolio_description {
+        margin-top: 0rem;
+    }
+
+
+}
