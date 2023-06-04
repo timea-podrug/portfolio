@@ -16,7 +16,7 @@ const Header =()=>{
     return(
         <header className="header">
             <nav className="nav container">
-                <Link to="/" className="nav_logo">Timea</Link>
+                <Link to="/" className="nav_logo">Portfolio</Link>
 
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                     <ul className="nav_list grid">

@@ -41,7 +41,7 @@ const PortfolioWebsite = () => {
                 </p>
                 
                 {/* <Link to="/PortfolioWebsiteDetails" target="_blank" className="button button--flex">Read On</Link> */}
-                <a href=""  className="button button--flex">Github</a>
+                <a href="https://github.com/timea-podrug/portfolio"  className="button button--flex">Github</a>
                 <a href="" className="button button--flex">Live demo</a></div>
 
             </div>

@@ -24,7 +24,8 @@ const Next = () => {
                     4 lectures and 1 panel discussion: entrepreneurship, technology, innovation, design and
                     personal development all in one place. <br></br>
 
-                    There were more than <b> 300</b> high school students, students and other young people in the audience.
+                    There were more than <b> 300</b> high school students, students and other young people in the audience.<br></br><br></br>
+                    I was one of the three organisers.
 
                 </p>
                 {/* <a href="#" className="button button--flex">Read On</a> */}

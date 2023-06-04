@@ -23,8 +23,8 @@ const TechEventsApp = () => {
                 </p>
 
                 {/* <a href="#" className="button button--flex">Read On</a> */}
-                <a href="" className="button button--flex">Github</a>
-                <a href="" className="button button--flex">Live demo</a>
+                <a href="https://github.com/timea-podrug/techEventsApp" className="button button--flex">Github</a>
+                {/* <a href="" className="button button--flex" disabled>Live demo</a> */}
 
             </div>
             <div className="portfolio_content">

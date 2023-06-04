@@ -74,6 +74,7 @@ margin-top: -4rem;
 
 }
 .project_languages {
+    margin-top: 1.5rem;
     display: grid;
     grid-template-columns: max-content;
     row-gap: 1rem;
@@ -120,6 +121,12 @@ margin-top: -4rem;
         height: 200px;
         justify-content: center;text-align: center;
     }
+    
+    #next_video{
+        width: 300px;
+        height: 200px;
+        justify-content: center;text-align: center;
+    }
     .app_video{
         justify-content: center;
         margin-left: auto;
@@ -137,8 +144,13 @@ margin-top: -4rem;
   }
   /*SMALL DEVICES*/
   @media screen and (max-width:350px){
-   
+   .project_languages{display: none;}
     .portfolio_video{
+        width: 200px;
+        height: 200px;
+        justify-content: center;text-align: center;
+    }
+    #next_video{
         width: 200px;
         height: 200px;
         justify-content: center;text-align: center;
