@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolio.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -28,7 +29,7 @@ const Next = () => {
                     I was one of the three organisers.
 
                 </p>
-                {/* <a href="#" className="button button--flex">Read On</a> */}
+                <Link to="/NextDetails" target="_blank" className="button button--flex">Read On</Link>
                 <a href="https://slobodnadalmacija.hr/split/odrzana-prva-next-konferencija-za-organizaciju-su-zasluzni-srednjoskolci-a-nije-izostala-ni-podrska-publike-1276801" target="_blank" className="button button--flex">Slobodna Dalmacija</a>
 
                 <a href="https://split-techcity.com/next-konferencija-2023-izvjestaj" target="_blank" className="button button--flex">Split Tech City</a>

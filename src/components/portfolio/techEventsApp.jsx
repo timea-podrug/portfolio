@@ -3,6 +3,7 @@ import "./portfolio.css";
 import Video from "../../assets/techEventsApp_video.mp4";
 import AndroidStudio from "../../assets/android-studio-icon.png";
 import Java from "../../assets/java-logo.png";
+import { Link } from "react-router-dom";
 
 
 
@@ -22,9 +23,8 @@ const TechEventsApp = () => {
                     Whether you're a developer, designer, entrepreneur, or simply passionate about technology, TechEventsApp is your go-to resource for staying up-to-date with the latest happenings in the tech world.
                 </p>
 
-                {/* <a href="#" className="button button--flex">Read On</a> */}
+                <Link to="/techEventsAppDetails" target="_blank" className="button button--flex">Read On</Link>
                 <a href="https://github.com/timea-podrug/techEventsApp" className="button button--flex">Github</a>
-                {/* <a href="" className="button button--flex" disabled>Live demo</a> */}
 
             </div>
             <div className="portfolio_content">

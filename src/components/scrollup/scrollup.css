@@ -14,6 +14,7 @@
     font-size: 1.5rem;
     color: var(--text-color);
 }
+
 .scrollup:hover {
     font-size: 1.5rem;
     color: var(--text-color-dark);
@@ -21,8 +22,8 @@
 }
 
 
-.scrollup:hover .scrollup_icon{
-   
+.scrollup:hover .scrollup_icon {
+
     color: var(--text-color-dark);
 }
 
@@ -45,14 +46,14 @@
 
 /*MEDIUM DEVICES*/
 @media screen and (max-width:768px) {
-    .show-scroll{
+    .show-scroll {
         bottom: 4rem;
     }
 }
 
 /*SMALL DEVICES*/
 @media screen and (max-width:350px) {
-    .scrollup{
+    .scrollup {
         right: 1rem;
     }
 }

@@ -4,23 +4,22 @@ import AboutImg from "../../assets/slikica.png";
 // import CV from "../../assets/Podrug-CV.pdf"
 import Info from "./Info";
 
-
 const About = () => {
     return (
         <section className="about section" id="about">
             <h2 className="section_title">About Me</h2>
             <span className="section_subtitle">My Introduction</span>
             <div className="about_container container grid">
-                <img src={AboutImg} alt="#" className="about_img"  />
+                <img src={AboutImg} alt="#" className="about_img" />
                 <div className="about_data">
                     <Info />
                     <p className="about_description">
                         I go to schools of graphic, design and sustainable construction. Course - web development <i class="uil uil-laptop"></i>. I love learning new things, working on projects and meeting new people.
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                         In my free time I enjoy reading books <i class="uil uil-book-reader"></i>, traveling <i class="uil uil-plane-fly"></i> and playing around with electronics <i class="uil uil-circuit"></i>.
                     </p>
-                    <a href="" downald="" className="button button--flex">Download CV   
+                    <a href="" downald="" className="button button--flex">Download CV
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"

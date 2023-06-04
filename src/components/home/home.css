@@ -9,7 +9,8 @@
     column-gap: 2rem;
     align-items: center;
 }
-#flag{
+
+#flag {
     margin-bottom: -5px;
 }
 
@@ -127,10 +128,11 @@
     font-size: 1.25rem;
     color: var(--title-color-dark);
 }
-.first_letter{
+
+.first_letter {
     background-color: var(--text-color-dark);
     color: var(--text-color);
-    font-size:2rem;
+    font-size: 2rem;
     padding: 0.3rem;
     border-radius: 0rem;
     margin: 0.1rem;
@@ -164,7 +166,7 @@
     .home_img {
         width: 250px;
         height: 250px;
-       
+
     }
 
     .home_scroll {
@@ -191,7 +193,7 @@
     }
 
     .home_img {
-        
+
         width: 200px;
         height: 200px;
     }

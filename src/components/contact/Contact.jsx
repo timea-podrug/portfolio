@@ -7,13 +7,13 @@ const Contact = () => {
 
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    emailjs.sendForm('service_unc6hen', 'template_lhbygfb', form.current, 'Ecez1bYvQ4kiz8fKl')
-    e.target.reset()
-      
-  };
+        emailjs.sendForm('service_unc6hen', 'template_lhbygfb', form.current, 'Ecez1bYvQ4kiz8fKl')
+        e.target.reset()
+
+    };
 
     return (
         <section className="contact section" id="contact">
@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className="contact_content">
                     <h3 className="contact_title">Write me</h3>
 
-                    <form ref={form} onSubmit={sendEmail}  className="contact_form">
+                    <form ref={form} onSubmit={sendEmail} className="contact_form">
 
 
                         <div className="contact_form-div">

@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 
 
 
-function NextDetails() {
+
+function TechEventsAppDetails() {
     return (
        
   
@@ -15,7 +16,7 @@ function NextDetails() {
         
     <div className="details_container"> 
           <Link to="/" className="nav_logo">Home</Link>
-        <h1 className="details_title">NEXT Conference</h1>
+        <h1 className="details_title">Tech Events App</h1>
         <div className="details_content">
             <button></button>
         </div>
@@ -29,4 +30,4 @@ function NextDetails() {
     );
   }
   
-  export default NextDetails;
+  export default TechEventsAppDetails;

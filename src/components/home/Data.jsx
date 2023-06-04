@@ -1,14 +1,13 @@
 import React from "react";
 import Flag from "../../assets/flag.png";
 
-
 const Data = () => {
   return (
     <div className="home_data">
       <h1 className="home_title">Timea Podrug</h1>
       <h3 className="home_subtitle">High School Student</h3>
       <p className="home_description"> <span className="first_letter">W</span>eb Developer based in Split, Croatia <img src={Flag} id="flag" alt="flag" width="25px" /> :) </p>
-      
+
       <a href="#contact" className="button button--flex">
         Say Hello
         <svg
