@@ -22,8 +22,5 @@ This is a React portfolio project that showcases my skills, projects, and experi
 
 ## Contact
 
-For any inquiries or questions, feel free to reach out to me at [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or questions, feel free to reach out to me at [timeapodrug@gmail.com](mailto:timeapodrug@gmail.com).
 
----
-
-Thank you for checking out my React portfolio project! I hope you find it helpful and inspiring. Feel free to customize and use it to showcase your own work and skills.# portfolio
