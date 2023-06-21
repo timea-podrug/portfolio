@@ -1,4 +1,5 @@
 # React Portfolio
+![image](https://github.com/timea-podrug/portfolio/assets/108535463/d84479c0-29c6-4117-b108-2fa9cca86932)
 
 This is a React portfolio project that showcases my skills, projects, and experiences in a visually appealing and interactive manner.
 
